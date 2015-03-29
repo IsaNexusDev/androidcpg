@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/buttonsll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uploadphoto"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/newalbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newalbum"
+            android:textColor="#000000" />
+    </LinearLayout>
+	<Button
+            android:id="@+id/show_result_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_show_result"
+            android:textColor="#000000"
+            android:visibility="gone" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_album" />
+
+    <Spinner
+        android:id="@+id/albums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <ProgressBar
+        android:id="@+id/uploadprogress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5" >
+
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"/>
+        <TextView android:id="@+id/preview_not_available"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/preview_not_available"
+            android:singleLine="false"
+            android:visibility="gone"
+            android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/navbuttonsll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/prev_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prev_item"
+            android:textColor="#000000"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="1px"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/next_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_item"
+            android:textColor="#000000"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/image_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:enabled="false"
+        android:hint="@string/image_title"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/image_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:enabled="false"
+        android:hint="@string/image_caption"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:singleLine="false" />
+</LinearLayout>

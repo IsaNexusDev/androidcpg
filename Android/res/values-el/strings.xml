@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidCPG</string>
+    <string name="title_activity_albums">Άλπουμ</string>
+    <string name="select_album">Επιλογή άλμπουμ</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="uploadphoto">Ανέβασμα φωτογρ.</string>
+    <string name="uploadphotos">Ανεβάστε %d φωτογραφίες</string>
+    <string name="uploadvideo">Ανέβασμα βίντεο</string>
+    <string name="uploadyoutube">Ανέβασμα Youtube Video</string>
+    <string name="uploadvimeo">Ανέβασμα Vimeo Video</string>
+    <string name="uploadvine">Ανέβασμα Vine Video</string>
+    <string name="uploadvideos">Ανεβάστε %d βίντεο</string>
+    <string name="uploadfiles">Ανεβάστε %d Αρχεία</string>
+    <string name="newalbum">Δημιουργία νέου άλμπουμ</string>
+    <string name="title_activity_send_share">AndroidCPG</string>
+    <string name="successuploading">%s ανέβηκε σωστά</string>
+    <string name="faileduploading">%s απέτυχε το ανέβασμα</string>
+    <string name="successuploading_title">Ανέβηκε σωστά</string>
+    <string name="faileduploading_title">Απέτυχε το ανέβασμα</string>
+    <string name="successaddingalbum">Το άλμπουμ προστέθηκε επιτυχώς</string>
+    <string name="failedaddingalbum">Η προσθήκη άλμπουμ απέτυχε</string>
+    <string name="addnewalbum">Όνομα άλμπουμ</string>
+    <string name="wait_a_few">Περιμένετε!</string>
+    <string name="loginsuccess">Εισήλθατε!</string>
+    <string name="loginfailed">Λάθος όνομα χρήστη ή κωδικός!</string>
+    <string name="albumsfetchingfailed">Η ανάκτηση των άλμπουμ απέτυχε!</string>
+
+    <string name="hostcorrect">Ο εξυπηρετητής είναι εντάξει!</string>
+    <string name="hostnotcorrect">Σφάλμα σύνδεσης με τον εξυπηρετητή!</string>
+    <string name="hostnotcorrect_nocoppermine">Ο εξυπηρετητής δεν έχει εγκατεστημένη την Coppermine Gallery!</string>
+    <string name="hostnotcorrect_noplugin">Το plugin AndroidCPG δεν είναι εγκατεστημένο σε αυτή την Coppermine Gallery. Επικοινωνήστε με τον διαχειριστή για να το εγκαταστήσει!</string>
+
+    <string name="uploads_in_progress_skipping_new_ones">Το ανέβασμα βρίσκεται σε εξέλιξη. Παρακαλώ περιμένετε μέχρι να τελειώσει για να ανεβάσετε περισσότερα!</string>
+    <string name="uploads_in_progress_login_not_allowed">Παρακαλώ περιμένετε να τελειώσει το ανέβασμα για να εισέλθετε!</string>
+
+    <string name="upload">Ανέβασμα</string>
+    <string name="uploading">Ανέβασμα σε εξέλιξη</string>
+    <string name="uploadprogressnotification">%1$s - %2$d%% ανέβηκε</string>
+    <string name="nouploads">Δεν υπάρχει τίποτα για ανέβασμα.</string>
+    <string name="finisheduploading">Το ανέβασμα τελείωσε!</string>
+    <string name="finishednotificationdetails">Αρχεία: %1$d, Επιτυχία: %2$d, Αποτυχία: %3$d</string>
+    <string name="optionmenudeletecredentials">Διαγραφή στοιχείων πρόσβασης</string>
+    <string name="optionmenusettings">Επιλογές</string>
+    <string name="optionmenuclose">Έξοδος</string>
+    
+    <string name="settings_doublelogin_title">Διπλή είσοδος</string>
+    <string name="settings_doublelogin_summary">Ενεργοποιήστε αυτή την επιλογή εάν λαμβάνετε σφάλμα εισόδου στην επιλογή Είσοδος ή κατά το ανέβασμα μιας φωτογραφίας. Η διαχείριση των cookies είναι προβληματική σε ορισμένες συσκευές. Η επιλογή αυτή μπορεί να διορθώσει το πρόβλημα.</string>
+    
+    <string name="webview_mode_button_code">Προβολή πηγής</string>
+    <string name="webview_mode_button_html">Προβολή κώδικα html</string>
+    
+    <string name="webview_copy_button">Αντιγραφή κειμένου</string>
+    <string name="action_show_result">Προβολή αποτελέσματος</string>
+    
+    <string name="image_title">Τίτλος εικόνας</string>
+    <string name="image_caption">Περιγραφή εικόνας</string>
+    
+    <string name="next_item">Επόμενο αντικείμενο</string>
+    <string name="prev_item">Προηγούμενο αντικείμενο</string>
+    
+    <string name="preview_not_available">Μη διαθέσιμη προεπισκόπηση</string>
+    
+    <string name="title_activity_result">Αποτελέσματα ανεβάσματος</string>
+    <string name="no_upload_info">Μη διαθέσιμα αποτελέσματα.</string>
+    
+    <string name="no_albums_create_first">Μη διαθέσιμα άλμπουμ, δημιουργήστε ένα.</string>
+    <string name="no_albums_cant_create">Δεν μπορείτε να δημιουργήσετε άλμπουμ. Επικοινωνήστε με τον διαχειριστή της Gallery</string>
+    
+    <string name="credits_title">Credits</string>
+    <string name="credits_summary">Application Translators. Thanks!</string>
+    <string name="credits_dialog_title">This Application has been translated by:</string>
+</resources>
+

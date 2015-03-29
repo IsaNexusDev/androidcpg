@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidCPG</string>
+    <string name="title_activity_albums">Albums</string>
+    <string name="select_album">Selecciona Album</string>
+    <string name="action_settings">Propiedades</string>
+    <string name="uploadphoto">Subir Foto</string>
+    <string name="uploadphotos">Subir %d Fotos</string>
+    <string name="uploadvideo">Subir Video</string>
+    <string name="uploadyoutube">Subir Video Youtube</string>
+    <string name="uploadvimeo">Subir Video Vimeo</string>
+    <string name="uploadvine">Subir Video Vine</string>
+    <string name="uploadvideos">Subir %d Videos</string>
+    <string name="uploadfiles">Subir %d Ficheros</string>
+    <string name="newalbum">Crear album nuevo</string>
+    <string name="title_activity_send_share">AndroidCPG</string>
+    <string name="successuploading">%s subido correctamente</string>
+    <string name="faileduploading">Fallo subiendo %s</string>
+    <string name="successuploading_title">Subido correctamente</string>
+    <string name="faileduploading_title">Fallo subiendo</string>
+    <string name="successaddingalbum">Album añadido correctamente</string>
+    <string name="failedaddingalbum">Fallo añadiendo album</string>
+    <string name="addnewalbum">Nombre del album</string>
+    <string name="wait_a_few">Espera!</string>
+    <string name="loginsuccess">Identificado correctamente</string>
+    <string name="loginfailed">Contraseña o usuario incorrecto</string>
+    <string name="albumsfetchingfailed">Error al obtener los albumes!</string>
+
+    <string name="hostcorrect">Servidor correcto!</string>
+    <string name="hostnotcorrect">Error conectando al servidor!</string>
+    <string name="hostnotcorrect_nocoppermine">El servidor no alberga una Galeria Coppermine!</string>
+    <string name="hostnotcorrect_noplugin">En esta Galeria Coppermine no esta instalado el Plugin AndroidCPG. Contacta a su administrador!</string>
+
+    <string name="uploads_in_progress_skipping_new_ones">La carga de Ficheros esta en progreso, Espera a que termine para subir mas.</string>
+    <string name="uploads_in_progress_login_not_allowed">La carga de Ficheros esta en progreso, Espera a que termine para Configurar el accesso.</string>
+
+    <string name="upload">Carga</string>
+    <string name="uploading">Subiendo</string>
+    <string name="uploadprogressnotification">%1$s - %2$d%% subido</string>
+    <string name="nouploads">Nada para subir.</string>
+    <string name="finisheduploading">Carga Completada.</string>
+    <string name="finishednotificationdetails">Ficheros: %1$d, Subidos: %2$d, Fallos: %3$d</string>
+    <string name="optionmenudeletecredentials">Borrar credenciales</string>
+    <string name="optionmenusettings">Preferencias</string>
+    <string name="optionmenuclose">Salir</string>
+    <string name="settings_doublelogin_title">Acceso Doble</string>
+    <string name="settings_doublelogin_summary">Habilita esta opcion si la Actividad de Acceso o Envio de archivos falla al registrarse en el servidor. (El manejador de Cookies es defectuoso en algunos dispositivos. Esta opcion puede que solucione esos problemas)</string>
+    
+    <string name="webview_mode_button_code">Mostrar código</string>
+    <string name="webview_mode_button_html">Mostrar html</string>
+    
+    <string name="webview_copy_button">Copiar Texto</string>
+    
+    <string name="action_show_result">Ver Resultado</string>
+    
+    <string name="image_title">Título de la imagen</string>
+    <string name="image_caption">Descripción de la imagen</string>
+    
+    <string name="next_item">Siguiente</string>
+    <string name="prev_item">Previo</string>
+    
+    <string name="preview_not_available">Previsualización no disponible</string>
+    
+    <string name="title_activity_result">Resultados</string>
+    <string name="no_upload_info">No hay informacion de resultados.</string>
+    
+    <string name="no_albums_create_first">No tienes ningun album, crea uno primero.</string>
+    <string name="no_albums_cant_create">No puedes crear albumes. Contacta al administrador de la galeria</string>
+    
+    <string name="credits_title">Agradecimientos</string>
+    <string name="credits_summary">Agradecimientos a los Traductores</string>
+    <string name="credits_dialog_title">Esta aplicación ha sido traducida por:</string>
+</resources>

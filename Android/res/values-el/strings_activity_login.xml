@@ -1,0 +1,21 @@
+<resources>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_email">Όνομα χρήστη</string>
+    <string name="prompt_password">Κωδικός</string>
+    <string name="action_sign_in">Είσοδος</string>
+    <string name="action_sign_in_short">Είσοδος</string>
+
+    <string name="error_invalid_email">Λάθος όνομα χρήστη!</string>
+    <string name="error_invalid_password">Λάθος κωδικός!</string>
+    <string name="error_incorrect_password">Λάθος κωδικός!</string>
+    <string name="error_field_required">Απαιτείται</string>
+
+    <string name="prompt_host">Εξυπηρετητής Coppermine</string>
+    <string name="action_testhost">Δοκιμή εξυπηρετητή</string>
+
+    <string name="login_success_message_long">Επιτυχής είσοδος!\r\n\r\nΔεν χρειάζεται να ανοίξετε ξανά την εφαρμογή.\r\n\r\nΤερματίστε την εφαρμογή και ανεβάστε φωτογραφίες ή βίντεο από το μενού Διαμοιρασμού (Διαμοιρασμός->AndroidCPG) μέσω οποιασδήποτε εφαρμογής Android όπως η Συλλογή Πολυμέσων ή η Διαχείριση Αρχείων.\r\n\r\nΌταν επιλέξετε να ανεβάσετε φωτογραφία, θα ξεκινήσει η εφαρμογή AndroidCPG και θα μπορέσετε να δημιουργήσετε νέο άλμπουμ ή να επιλέξετε ένα υπάρχων και να ανεβάσετε τα αρχεία σας.</string>
+    <string name="action_goback">Πίσω στην είσοδο</string>
+    <string name="action_exit">Έξοδος</string>
+
+</resources>
